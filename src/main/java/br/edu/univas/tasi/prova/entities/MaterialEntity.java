@@ -16,7 +16,7 @@ public class MaterialEntity {
   
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long code;
+	private int code;
 	private String name;
 	private float price;
 	private String provider;
